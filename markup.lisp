@@ -17,8 +17,8 @@
 ;;;; under the License.
 ;;;;
 
-(defpackage :cl-batteries/markup
-  (:use :cl :cl-batteries/parse :cl-batteries/re :cl-batteries/lexer)
+(defpackage :boost-markup
+  (:use :cl :boost-parse :boost-re :boost-lexer)
   (:export
 
    ;; parsing predicates
@@ -30,7 +30,7 @@
    #:markup-encode
    #:markup-decode))
 
-(in-package :cl-batteries/markup)
+(in-package :boost-markup)
 
 ;;; ----------------------------------------------------
 
